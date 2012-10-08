@@ -1,0 +1,16 @@
+﻿
+.movie-title
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.poweredByKaltura
+{
+    text-align:right;
+}
+
+div.kaltura  
+{
+	background: url(../images/j_button2_kaltura.png) 100% 0 no-repeat;
+}

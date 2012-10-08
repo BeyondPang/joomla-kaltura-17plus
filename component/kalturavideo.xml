@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="2.5.0">
+ <name>Kaltura Video</name>
+ <!-- The following elements are optional and free of formatting constraints -->
+ <creationDate>2012-01-28</creationDate>
+ <author>Kaltura</author>
+ <authorEmail>joomla@kaltura.com</authorEmail>
+ <authorUrl>http:corp.kaltura.com</authorUrl>
+ <copyright>Copyright Info</copyright>
+ <license>License Info</license>
+ <!--  The version string is recorded in the components table -->
+ <version>2.0</version>
+ <!-- The description is optional and defaults to the name -->
+ <description>With this component you can activate your Kaltura Video extension</description>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.com_kalturavideo.ini</language>
+  </languages>
+
+  <!-- The config parameters -->
+  <install>
+    <sql>
+      <file charset="utf8" driver="mysql">sql/install.sql</file>
+    </sql>
+  </install>
+
+  <uninstall>
+    <sql>
+      <file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+    </sql>
+  </uninstall>
+
+  <!-- Site Main File Copy Section -->
+ <!-- Note the folder attribute: This attribute describes the folder
+      to copy FROM in the package to install therefore files copied
+      in this section are copied from /site/ in the package -->
+  <files folder="site">
+  <filename>controller.php</filename>
+  <filename>kalturavideo.php</filename>
+  <filename>index.html</filename>  
+  <filename>lib.php</filename>
+  <filename>views/index.html</filename>
+  <filename>views/kaltura/index.html</filename>
+  <filename>views/kaltura/view.html.php</filename>
+  <filename>views/kaltura/tmpl/default.php</filename>
+  <filename>views/kaltura/tmpl/index.html</filename>
+  <filename>views/editmix/index.html</filename>
+  <filename>views/editmix/view.html.php</filename>
+  <filename>views/editmix/tmpl/default.php</filename>
+  <filename>views/editmix/tmpl/index.html</filename>
+  <filename>views/createmix/index.html</filename>
+  <filename>views/createmix/view.raw.php</filename>
+  <filename>views/createmix/tmpl/default.php</filename>
+  <filename>views/createmix/tmpl/index.html</filename>
+  <filename>client/kaltura_helpers.php</filename>
+  <filename>client/kaltura_logger.php</filename>
+  <filename>client/kaltura_settings.php</filename>
+  <filename>client/KalturaClient.php</filename>
+  <filename>client/KalturaClientBase.php</filename>
+  <filename>js/jquery.js</filename>
+  <filename>js/swfobject.js</filename>
+  <filename>css/kaltura_ie6.css</filename>
+  <filename>css/kaltura_ie7.css</filename>
+  <filename>css/kaltura_styles.css</filename>
+  <filename>css/kaltura_rt.css</filename>
+  <filename>images/j_button2_kaltura.png</filename>
+ </files>
+ 
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.com_kalturavideo.ini</language>
+  </languages>
+ 
+ <administration>
+  <!-- Administration Menu Section -->
+  <menu img="images/favicon.png" link="option=com_kalturavideo">Kaltura Video</menu>
+
+  <files folder="site">
+  <filename>controller.php</filename>
+  <filename>kalturavideo.php</filename>
+  <filename>index.html</filename>
+  <filename>lib.php</filename>
+  <folder>views</folder>
+  <folder>client</folder>
+  <folder>js</folder>
+  <folder>css</folder>
+  <folder>images</folder>
+  <folder>sql</folder>
+  </files>
+
+ <languages>
+	 <language tag="en-GB">language/en-GB/en-GB.com_kalturavideo.ini</language>
+   </languages>
+  
+ </administration>
+</extension>

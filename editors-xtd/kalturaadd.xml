@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="editors-xtd">
+	<name>Editor Button - Kaltura Video</name>
+	<author>Homsys</author>
+	<creationDate>September 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ofer@homsys.co.il</authorEmail>
+	<authorUrl>www.homsys.co.il</authorUrl>
+	<version>1.7.0</version>
+	<description>Editor Button for Kaltura Video</description>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_kalturaadd.ini</language>
+  </languages>
+  <files>
+		<filename plugin="kalturaadd">kalturaadd.php</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/plugins/editors-xtd/kalturaadd">
+			<fieldset name="basic" label="KALTURAADD">
+				<field name="KALTURAAD" type="text" size="5" default="50" label="KALTURAAD" description="KALTURAADD"></field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

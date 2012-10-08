@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="content">
+	<name>Content - Kaltura Video</name>
+	<author>Homsys</author>
+	<creationDate>September 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ofer@homsys.co.il</authorEmail>
+	<authorUrl>www.homsys.co.il</authorUrl>
+	<version>1.7</version>
+	<description>KALTURADESC</description>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_kaltura.ini</language>
+  </languages>
+  <files>
+		<filename plugin="kaltura">kaltura.php</filename>
+	</files>
+</extension>

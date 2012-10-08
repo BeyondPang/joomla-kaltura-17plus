@@ -1,0 +1,285 @@
+html
+{
+    height:95%;
+}
+
+body {
+	font: 12px Helvetica, Arial, sans-serif;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 4px 12px 0;
+}
+
+div.video-wrap {
+	overflow: hidden;
+	padding: 20px 0 0 24px;
+}
+
+div.type {
+	height: 110px;
+	margin-bottom: 40px;
+}
+
+div.type form {
+	overflow: hidden;
+	padding: 6px 0 0 0;
+	margin: 0;
+}
+
+div.type input {
+	display: block;
+	float: left;
+	margin: 1px 4px 0 0;
+}
+
+div.type div.normal,
+div.type div.editable {
+	overflow: hidden;
+}
+
+div.type div.input {
+	float: left;
+	overflow: hidden;
+	width: 80px;
+	padding: 6px;
+	position: relative;
+	left: 2px;
+}
+
+div.type div.selected {
+	background-color: #fff;
+	border: 1px solid #b5b5b5;
+	border-right: none;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	padding: 6px;
+	position: relative;
+	left: 2px;
+	z-index: 1;
+}
+
+div.type div.description-top,
+div.type div.description-bottom {
+	width: 480px;
+	font-size: 11px;
+	margin-bottom: 16px;
+	padding: 13px;
+	background-color: #fff;
+	border: 1px solid #b5b5b5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: relative;
+	top: -56px;
+	left: 94px;
+}
+
+div.type div.description-top {
+	-moz-border-radius-topleft: 0;
+	-webkit-border-top-left-radius: 0;
+}
+
+div.type div.description-bottom {
+	-moz-border-radius-bottomleft: 0;
+	-webkit-border-bottom-left-radius: 0;
+}
+
+div.aspect-ratio {
+	float: left;
+	width: 330px;
+}
+
+div.aspect-ratio div.normal,
+div.aspect-ratio div.widescreen {
+	background-color: #454545;
+	text-align: center;
+	height: 93px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.aspect-ratio div.normal {
+	width: 115px;
+	float: left;
+}
+
+div.aspect-ratio div.widescreen {
+	width: 140px;
+	margin-left: 135px;
+}
+
+div.aspect-ratio div.normal a,
+div.aspect-ratio div.widescreen a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 26px 0;
+	border: 4px solid #454545;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.aspect-ratio div.normal a.selected,
+div.aspect-ratio div.widescreen a.selected {
+	border: 4px solid #005aff;
+}
+
+div.aspect-ratio div.normal a:hover,
+div.aspect-ratio div.widescreen a:hover {
+	border: 4px solid #005aff;
+	background-color: #575757;
+}
+
+div.size {
+	overflow: hidden;
+}
+
+div.size span.radios {
+	line-height: 2.5;
+	margin-top: 10px;
+}
+
+div.size input.radio {
+	float: left;
+	margin: 8px 4px 0 0;
+}
+
+div.size input.radio label {
+	display: block;
+}
+
+div.size div.custom {
+	display: inline;
+	padding: 4px 0 0 4px;
+}
+
+div.size div.custom input {
+	margin-right: 4px;
+}
+
+div.size div.custom input {
+	width: 60px;
+}
+
+div.mode {
+	float: left;
+	clear: left;
+	padding-top: 96px;
+	font-size: 13px;
+}
+
+div.mode2 {
+	float: left;
+	clear: left;
+	padding-top: 200px;
+	font-size: 13px;
+}
+
+div.mode3 {
+	float: left;
+	clear: left;
+	padding-top: 50px;
+	font-size: 13px;
+}
+
+div.mode4 {
+	float: left;
+	clear: left;
+	padding-top: 10px;
+	font-size: 13px;
+}
+div.user_selected div.buttons {
+	float: right;
+	padding: 120px 10px 0 0;
+}
+
+div.buttons {
+	float: right;
+	padding: 76px 10px 0 0;
+}
+
+div.buttons button {
+}
+
+div.buttons button.next {
+
+}
+
+div.buttons button.cancel {
+
+}
+
+.error
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #c00;
+}
+
+.kaltura_componentheading
+{
+    font-weight: bold;
+	font-size: 16px;
+	margin:10px 0 10px 20px;
+}
+
+.kaltura_contentheading {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 4px 12px 0;
+}
+
+.note
+{
+	height:50px;
+    background-color:#fbf6cb;
+    border-color:#666666;	
+    padding: 8px;
+    margin-top:15px;
+}
+
+#slctDesign
+{
+    width: 200px;
+    margin:8px;    
+}
+
+#inpTitle
+{
+    width: 238px;
+    margin:8px;
+}
+
+.user_selected
+{
+    margin-left: 416px;
+    margin-top: -300px;    
+}
+
+.pl_head_line
+{
+    background:#F0F0F0;
+}
+
+.pl_even_line
+{
+    background:#FFFFFF;
+}
+
+.pl_odd_line
+{
+    background:#F9F9F9;
+}
